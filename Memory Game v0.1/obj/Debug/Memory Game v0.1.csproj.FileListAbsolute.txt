@@ -28,3 +28,20 @@ C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Mem
 C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.csproj.CoreCompileInputs.cache
 C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.exe
 C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.pdb
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.csprojAssemblyReference.cache
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\hoofdmenu.g.cs
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\MainWindow.g.cs
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\App.g.cs
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1_MarkupCompile.cache
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1_MarkupCompile.lref
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.exe
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.pdb
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\bin\Debug\Memory Game v0.1.exe.config
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\bin\Debug\Memory Game v0.1.exe
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\bin\Debug\Memory Game v0.1.pdb
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\hoofdmenu.baml
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\MainWindow.baml
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.g.resources
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory_Game_v0._1.Properties.Resources.resources
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.csproj.GenerateResource.cache
+C:\Users\lukas\Desktop\School\Project Memory\HBO-ICT.MemoryGroep27\Memory Game v0.1\obj\Debug\Memory Game v0.1.csproj.CoreCompileInputs.cache
