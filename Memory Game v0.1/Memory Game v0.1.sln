@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Memory Game v0.1", "Memory Game v0.1.csproj", "{FD51CF6F-0A4F-4F85-B5D6-687A92400E11}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hoofdmenu v01", "..\hoofdmenu v01\hoofdmenu v01.csproj", "{C6E635B8-9A34-40EA-BA5E-B290FC9CF0CF}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FD51CF6F-0A4F-4F85-B5D6-687A92400E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FD51CF6F-0A4F-4F85-B5D6-687A92400E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FD51CF6F-0A4F-4F85-B5D6-687A92400E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FD51CF6F-0A4F-4F85-B5D6-687A92400E11}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C6E635B8-9A34-40EA-BA5E-B290FC9CF0CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C6E635B8-9A34-40EA-BA5E-B290FC9CF0CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6E635B8-9A34-40EA-BA5E-B290FC9CF0CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
