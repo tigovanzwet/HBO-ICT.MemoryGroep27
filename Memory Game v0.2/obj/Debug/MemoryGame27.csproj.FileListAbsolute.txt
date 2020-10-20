@@ -1,0 +1,15 @@
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\bin\Debug\MemoryGame27.exe.config
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\bin\Debug\MemoryGame27.exe
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\bin\Debug\MemoryGame27.pdb
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.csprojAssemblyReference.cache
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MainWindow.g.cs
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\App.g.cs
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27_MarkupCompile.cache
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27_MarkupCompile.lref
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MainWindow.baml
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.g.resources
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.Properties.Resources.resources
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.csproj.GenerateResource.cache
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.csproj.CoreCompileInputs.cache
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.exe
+C:\Users\Tigo2\source\repos\MemoryGame27\MemoryGame27\obj\Debug\MemoryGame27.pdb
