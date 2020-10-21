@@ -29,74 +29,82 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Titlescreen));
-            this.titletext = new System.Windows.Forms.Label();
-            this.startBtn = new System.Windows.Forms.Button();
-            this.exitBtn = new System.Windows.Forms.Button();
+            this.menu = new System.Windows.Forms.Panel();
+            this.start_btn = new System.Windows.Forms.Button();
+            this.btn_exit = new System.Windows.Forms.Button();
+            this.title1 = new System.Windows.Forms.Label();
+            this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
-            // titletext
+            // menu
             // 
-            this.titletext.AutoSize = true;
-            this.titletext.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.titletext.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.titletext.Font = new System.Drawing.Font("Poor Richard", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.titletext.Location = new System.Drawing.Point(94, 29);
-            this.titletext.Name = "titletext";
-            this.titletext.Size = new System.Drawing.Size(589, 92);
-            this.titletext.TabIndex = 0;
-            this.titletext.Text = "MEMORY GAME";
-            this.titletext.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.titletext.Click += new System.EventHandler(this.label1_Click);
+            this.menu.BackColor = System.Drawing.Color.Gainsboro;
+            this.menu.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.menu.Controls.Add(this.title1);
+            this.menu.Controls.Add(this.btn_exit);
+            this.menu.Controls.Add(this.start_btn);
+            this.menu.Location = new System.Drawing.Point(191, 46);
+            this.menu.Name = "menu";
+            this.menu.Size = new System.Drawing.Size(402, 346);
+            this.menu.TabIndex = 0;
             // 
-            // startBtn
+            // start_btn
             // 
-            this.startBtn.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.startBtn.Font = new System.Drawing.Font("OCR A Extended", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.startBtn.Location = new System.Drawing.Point(300, 187);
-            this.startBtn.Name = "startBtn";
-            this.startBtn.Size = new System.Drawing.Size(163, 55);
-            this.startBtn.TabIndex = 1;
-            this.startBtn.Text = "START GAME";
-            this.startBtn.UseVisualStyleBackColor = false;
-            this.startBtn.Click += new System.EventHandler(this.button1_Click);
+            this.start_btn.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.start_btn.ForeColor = System.Drawing.Color.DarkRed;
+            this.start_btn.Location = new System.Drawing.Point(117, 137);
+            this.start_btn.Name = "start_btn";
+            this.start_btn.Size = new System.Drawing.Size(183, 64);
+            this.start_btn.TabIndex = 0;
+            this.start_btn.Text = "START GAME";
+            this.start_btn.UseVisualStyleBackColor = true;
+            this.start_btn.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // exitBtn
+            // btn_exit
             // 
-            this.exitBtn.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.exitBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.exitBtn.Font = new System.Drawing.Font("OCR A Extended", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.exitBtn.Location = new System.Drawing.Point(300, 301);
-            this.exitBtn.Name = "exitBtn";
-            this.exitBtn.Size = new System.Drawing.Size(163, 55);
-            this.exitBtn.TabIndex = 2;
-            this.exitBtn.Text = "EXIT GAME";
-            this.exitBtn.UseVisualStyleBackColor = false;
+            this.btn_exit.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_exit.ForeColor = System.Drawing.Color.DarkRed;
+            this.btn_exit.Location = new System.Drawing.Point(117, 220);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.Size = new System.Drawing.Size(183, 61);
+            this.btn_exit.TabIndex = 1;
+            this.btn_exit.Text = "EXIT GAME";
+            this.btn_exit.UseVisualStyleBackColor = true;
+            this.btn_exit.Click += new System.EventHandler(this.btn_exit_Click);
+            // 
+            // title1
+            // 
+            this.title1.AutoSize = true;
+            this.title1.Font = new System.Drawing.Font("ROG Fonts", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.title1.Location = new System.Drawing.Point(36, 52);
+            this.title1.Name = "title1";
+            this.title1.Size = new System.Drawing.Size(332, 40);
+            this.title1.TabIndex = 2;
+            this.title1.Text = "MEMORY GAME";
             // 
             // Titlescreen
             // 
-            this.AcceptButton = this.startBtn;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.CancelButton = this.exitBtn;
+            this.BackColor = System.Drawing.Color.Salmon;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.exitBtn);
-            this.Controls.Add(this.startBtn);
-            this.Controls.Add(this.titletext);
+            this.Controls.Add(this.menu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Titlescreen";
             this.Text = "Memory game";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.menu.ResumeLayout(false);
+            this.menu.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label titletext;
-        private System.Windows.Forms.Button startBtn;
-        private System.Windows.Forms.Button exitBtn;
+        private System.Windows.Forms.Panel menu;
+        private System.Windows.Forms.Button start_btn;
+        private System.Windows.Forms.Label title1;
+        private System.Windows.Forms.Button btn_exit;
     }
 }
 

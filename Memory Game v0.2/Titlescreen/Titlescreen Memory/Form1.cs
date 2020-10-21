@@ -36,5 +36,15 @@ namespace Titlescreen_Memory
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            menu.Hide();
+        }
+
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
