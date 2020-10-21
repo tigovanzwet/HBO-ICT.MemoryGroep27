@@ -39,7 +39,7 @@ namespace hoofdmenu_v01
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
