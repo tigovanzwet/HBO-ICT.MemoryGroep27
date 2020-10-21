@@ -1,0 +1,10 @@
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\bin\Debug\hoofdmenu v01.exe.config
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\bin\Debug\hoofdmenu v01.exe
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\bin\Debug\hoofdmenu v01.pdb
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu v01.csprojAssemblyReference.cache
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu_v01.title_screen.resources
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu_v01.Properties.Resources.resources
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu v01.csproj.GenerateResource.cache
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu v01.csproj.CoreCompileInputs.cache
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu v01.exe
+C:\Users\lukas\Desktop\School\ICT MEMORY GAME\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\hoofdmenu v01\obj\Debug\hoofdmenu v01.pdb
