@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Title Memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Game.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Game memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit Game Memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\High Scores Memory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play Game memory1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memorytitle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

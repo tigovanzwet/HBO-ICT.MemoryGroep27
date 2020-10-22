@@ -46,5 +46,55 @@ namespace Titlescreen_Memory
         {
             Application.Exit();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_start_MouseHover(object sender, EventArgs e)
+        {
+            btn_start.BackColor = Color.White;
+        }
+
+        private void btn_highscores_MouseHover(object sender, EventArgs e)
+        {
+            btn_highscores.BackColor = Color.White;
+        }
+
+        private void btn_exit_MouseHover(object sender, EventArgs e)
+        {
+            btn_exit.BackColor = Color.White;
+        }
+
+        private void btn_start_MouseLeave(object sender, EventArgs e)
+        {
+            btn_start.BackColor = Color.Transparent;
+        }
+
+        private void btn_highscores_MouseLeave(object sender, EventArgs e)
+        {
+            btn_highscores.BackColor = Color.Transparent;
+        }
+
+        private void btn_exit_MouseLeave(object sender, EventArgs e)
+        {
+            btn_exit.BackColor = Color.Transparent;
+        }
+
+        private void btn_start_Click(object sender, EventArgs e)
+        {
+            menu.Hide();
+        }
+
+        private void btn_exit_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
