@@ -122,5 +122,11 @@
   <ItemGroup>
     <Resource Include="Resources\Achterkant.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Exit Game Memory.png" />
+    <Resource Include="Resources\High Scores Memory.png" />
+    <Resource Include="Resources\memorytitle.png" />
+    <Resource Include="Resources\Play Game memory.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
