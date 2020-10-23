@@ -1,0 +1,32 @@
+﻿<Window x:Class="Godsamme.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Godsamme"
+        mc:Ignorable="d"
+        Title="Namenscherm" Height="800" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black" >
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <TextBox Name="Speler1" Text="Username player one" GotFocus="Speler1_GotFocus" LostFocus="Speler1_LostFocus" Foreground="Gray" Width="244" Height="62" Margin="0,76,0,247" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+
+            <TextBox Name="Speler2" Text="Username player two" GotFocus="Speler2_GotFocus" LostFocus="Speler2_LostFocus" Foreground="Gray" Width="244" Height="62" Margin="0,76,0,247" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+
+            <Image Source="/Resources/memorytitle.png"  Grid.Column="0" Grid.ColumnSpan="3" Margin="50,10,50,10"/>
+
+            <Button Name="Startbutton" Content="Start" Width="244" Height="62" Margin="0,100,0,0" Grid.Column="1" Grid.Row="1" Click="startbutton_Click" HorizontalAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+
+            <Button Name="Backbutton" Content="Go back" Width="244" Height="62" Margin="0,300,0,0" Grid.Column="1" Grid.Row="1" Click="Terugbutton_Click" HorizontalAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Memory Game v0.4\\Godsamme\\bin\\Release",
-    "\\Memory Game v0.4\\Titlescreen\\Titlescreen Memory",
-    "\\Test",
-    "\\Test\\Titlescreen",
-    "\\Test\\Titlescreen\\Titlescreen Memory\\bin"
+    "\\Memory Game v0.4"
   ],
-  "SelectedNode": "\\Test\\Titlescreen\\Titlescreen.sln",
+  "SelectedNode": "\\Memory Game v0.4\\Godsamme.sln",
   "PreviewInSolutionExplorer": false
 }

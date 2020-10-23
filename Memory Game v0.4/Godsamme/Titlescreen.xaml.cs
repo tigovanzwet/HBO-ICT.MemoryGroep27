@@ -24,15 +24,10 @@ namespace Godsamme
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void startBtn_Click(object sender, RoutedEventArgs e)
         {
-            var MainWindow = new MainWindow();
-            MainWindow.Show();
+            var Namenscherm = new Window1();
+            Namenscherm.Show();
             this.Close();
         }
 
@@ -48,5 +43,7 @@ namespace Godsamme
             highscores.Show();
             this.Close();
         }
+
+        
     }
 }

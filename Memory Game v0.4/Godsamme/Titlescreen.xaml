@@ -21,7 +21,7 @@
         </Grid>
         <Image Source="/Resources/memorytitle.png" VerticalAlignment="Top" Margin="20,112,31.6,0" Grid.Column="1" HorizontalAlignment="Center" RenderTransformOrigin="0.255,0.444"/>
 
-        <Button Name="startBtn" Content="Play Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,336,0,0" Height="62" Click="startBtn_Click" Grid.Column="1" FontFamily="Jokerman" FontSize="18"/>
+        <Button Name="startBtn" Content="Play Game" VerticalAlignment="Top" Margin="259,336,0,0" Height="62" Click="startBtn_Click" Grid.Column="1" FontFamily="Jokerman" FontSize="18" HorizontalAlignment="Left" Width="244"/>
 
         <Button Name="highscoresBtn" Content="Highscores" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,421,0,0" Height="62" Grid.Column="1" FontFamily="Jokerman" FontSize="18" Click="highscoresBtn_Click"/>
 

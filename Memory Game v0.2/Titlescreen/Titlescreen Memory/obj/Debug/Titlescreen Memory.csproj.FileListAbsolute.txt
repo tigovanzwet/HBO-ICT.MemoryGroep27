@@ -28,3 +28,13 @@ C:\Users\Tigo2\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\T
 C:\Users\Tigo2\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.csproj.CoreCompileInputs.cache
 C:\Users\Tigo2\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.exe
 C:\Users\Tigo2\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.pdb
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\bin\Debug\Titlescreen Memory.exe.config
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\bin\Debug\Titlescreen Memory.exe
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\bin\Debug\Titlescreen Memory.pdb
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.csprojAssemblyReference.cache
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen_Memory.Titlescreen.resources
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen_Memory.Properties.Resources.resources
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.csproj.GenerateResource.cache
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.csproj.CoreCompileInputs.cache
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.exe
+C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.2\Titlescreen\Titlescreen Memory\obj\Debug\Titlescreen Memory.pdb
