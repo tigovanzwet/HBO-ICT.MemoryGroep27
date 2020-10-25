@@ -93,3 +93,5 @@ C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game
 C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.pdb
 C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Namenscherm.g.cs
 C:\Users\Tjerk Venema\Source\Repos\tigovanzwet\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Namenscherm.baml
+C:\Users\Tigo2\source\repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Namenscherm.g.cs
+C:\Users\Tigo2\source\repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Namenscherm.baml

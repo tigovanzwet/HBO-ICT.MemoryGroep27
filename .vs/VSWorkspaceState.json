@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Memory Game v0.4"
+    "\\Memory Game v0.4",
+    "\\Memory Game v0.4\\Godsamme",
+    "\\Memory Game v0.4\\Godsamme\\Resources"
   ],
-  "SelectedNode": "\\Memory Game v0.4\\Godsamme.sln",
+  "SelectedNode": "\\Memory Game v0.4\\Godsamme\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }
