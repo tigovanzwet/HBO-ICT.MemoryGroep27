@@ -147,6 +147,8 @@ namespace Godsamme
         }
 
 
+
+
         //Tijdelijk : wordt nog verandert dus >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
         private void Speler1_GotFocus(object sender, RoutedEventArgs e)
         {
@@ -181,6 +183,14 @@ namespace Godsamme
                 Speler2.Text = "Username player two";
                 Speler2.Foreground = Brushes.Gray;
             }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Are you sure you want to go back to the main menu?");
+            var Titlescreen = new Titlescreen();
+            Titlescreen.Show();
+            this.Close();
         }
     }
     // Tijdelijk >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
