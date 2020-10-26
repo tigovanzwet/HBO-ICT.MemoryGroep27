@@ -27,6 +27,7 @@
             <Button Name="Startbutton" Content="Start" Width="244" Height="62" Margin="0,100,0,0" Grid.Column="1" Grid.Row="1" Click="startbutton_Click" HorizontalAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
 
             <Button Name="Backbutton" Content="Go back" Width="244" Height="62" Margin="0,300,0,0" Grid.Column="1" Grid.Row="1" Click="Terugbutton_Click" HorizontalAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+            <Label Content="  Enter your name below"  Grid.Column="1" HorizontalAlignment="Left" Height="36" Margin="161.4,0.2,0,0" VerticalAlignment="Top" Width="244" FontFamily="Jokerman" FontSize="18" Foreground="White" Grid.Row="1"/>
         </Grid>
     </Grid>
 </Window>
