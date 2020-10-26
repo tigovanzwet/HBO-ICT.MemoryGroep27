@@ -119,11 +119,11 @@ namespace Godsamme
             else if (first.Tag.ToString() != second.Tag.ToString())
             {
                 MessageBox.Show("No Match!");
+               
+                Uri path = new Uri("Resources/Achterkant.png", UriKind.Relative);
+                first.Source = new BitmapImage(path);
+                second.Source = new BitmapImage(path);
 
-                Image backgroundImage = new Image();
-                Uri path123 = new Uri("Resources/Achterkant.png", UriKind.Relative);
-                backgroundImage.Source = new BitmapImage(path123);
-                
                 first = null;
                 second = null;
 
