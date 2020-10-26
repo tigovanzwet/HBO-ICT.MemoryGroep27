@@ -27,10 +27,16 @@ namespace Godsamme
 
         private void startbutton_Click(object sender, RoutedEventArgs e)
         {
-            var MainWindow = new MainWindow();
-            MainWindow.Show();
+            string naam1 = Speler1.Text;
+            string naam2 = Speler2.Text;
+            MainWindow mainWindow = new MainWindow(naam1, naam2);
+            mainWindow.Show();
+            Speler1.Text = mainWindow.naam1;
+            Speler2.Text = mainWindow.naam2;
             this.Close();
+
         }
+
 
         private void Terugbutton_Click(object sender, RoutedEventArgs e)
         {

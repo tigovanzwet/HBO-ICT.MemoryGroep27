@@ -13,11 +13,11 @@
         <Image Source="/Resources/memorytitle.png" VerticalAlignment="Top" Margin="1,530,255.6,0" HorizontalAlignment="Center" RenderTransformOrigin="0.15,-3.604" Height="62" Width="537"/>
         <Button Name ="exitBtn" Content="Restart Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="594,40,0,0" Height="62" Click="exitBtn_Click" FontFamily="Jokerman" FontSize="18"/>
 
-        <TextBox Name="Speler1" Text="Username player one" GotFocus="Speler1_GotFocus" LostFocus="Speler1_LostFocus" Foreground="Gray" Width="244" Height="62" Margin="0,624,0,83" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
-        <TextBox Name="Speler2" Text="Username player two" GotFocus="Speler2_GotFocus" LostFocus="Speler2_LostFocus" Foreground="Gray" Width="244" Height="62" Margin="0,625,251.6,83.4" HorizontalAlignment="Right" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
-        <TextBox Name="HS1" Text="Score Player 1" GotFocus="Speler1_GotFocus" LostFocus="Speler1_LostFocus" Foreground="Gray" Width="244" Height="62" Margin="0,686,0,21" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
-        <TextBox Name="HS2" Text="Score Player 2" GotFocus="Speler1_GotFocus" LostFocus="Speler1_LostFocus" Foreground="Gray" Width="244" Height="62" Margin="298,686,0,21" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
-        <Button Content="Back to Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Margin="593,124,0,0" RenderTransformOrigin="0.5,0.5" Height="58" FontFamily="Jokerman" FontSize="18" Click="Button_Click">
+        <TextBlock Name="Speler1" Background="White" Width="244" Height="62" Margin="0,624,0,83" HorizontalAlignment="Left" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+        <TextBlock Name="Speler2" Background="White" Width="244" Height="62" Margin="0,625,251.6,83.4" HorizontalAlignment="Right" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+        <TextBox Name="HS1" Text="Score Player 1" Foreground="Gray" Width="244" Height="62" Margin="0,686,0,21" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+        <TextBox Name="HS2" Text="Score Player 2" Foreground="Gray" Width="244" Height="62" Margin="298,686,0,21" HorizontalAlignment="Left" TextAlignment="Center" VerticalContentAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
+        <Button Content="Back to Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Margin="593,124,0,0" RenderTransformOrigin="0.5,0.5" Height="58" FontFamily="Jokerman" FontSize="18" Click="Start_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

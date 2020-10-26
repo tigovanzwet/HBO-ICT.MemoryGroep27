@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 
 namespace Godsamme
 {
-   
+
     public partial class MainWindow : Window
     {
         private const int NR_OF_COLS = 4;
@@ -27,14 +27,21 @@ namespace Godsamme
         Image first = null;
         Image second = null;
 
-        public MainWindow()
+        public string naam1 { get; set; }
+        public string naam2 { get; set; }
+
+        public MainWindow(string naam1, string naam2)
         {
             InitializeComponent();
 
             InitializeGameGrid(NR_OF_ROWS, NR_OF_COLS);
 
             AddImages(NR_OF_COLS, NR_OF_ROWS);
+
+            Speler1.Text = naam1;
+            Speler2.Text = naam2;
         }
+
 
         private void InitializeGameGrid(int rows, int cols)
         {
@@ -82,10 +89,10 @@ namespace Godsamme
             var shuffled = result.OrderBy(x => Guid.NewGuid()).ToList();
             return shuffled;
 
-            
+
 
         }
-        
+
         private void TurnCard(object sender, MouseButtonEventArgs e)
         {
             Image card = (Image)sender;
@@ -97,7 +104,7 @@ namespace Godsamme
             if (card.Opacity == 0)
             {
                 return;
-            }  
+            }
             if (first == null)
             {
                 first = card;
@@ -119,7 +126,7 @@ namespace Godsamme
             else if (first.Tag.ToString() != second.Tag.ToString())
             {
                 MessageBox.Show("No Match!");
-               
+
                 Uri path = new Uri("Resources/Achterkant.png", UriKind.Relative);
                 first.Source = new BitmapImage(path);
                 second.Source = new BitmapImage(path);
@@ -127,7 +134,7 @@ namespace Godsamme
                 first = null;
                 second = null;
 
-                
+
 
             }
             else
@@ -140,60 +147,16 @@ namespace Godsamme
         private void exitBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Are you sure you want to restart?");
-            var MainWindow = new MainWindow();
-            MainWindow.Show();
+            var mainwindow = new MainWindow(naam1, naam2);
+            mainwindow.Show();
             this.Close();
-
         }
 
-
-
-
-        //Tijdelijk : wordt nog verandert dus >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-        private void Speler1_GotFocus(object sender, RoutedEventArgs e)
+        private void Start_Click(object sender, RoutedEventArgs e)
         {
-            Speler1.Text = "";
-            Speler1.Foreground = Brushes.Black;
-
-        }
-
-        private void Speler2_GotFocus(object sender, RoutedEventArgs e)
-        {
-            Speler2.Text = "";
-            Speler2.Foreground = Brushes.Black;
-
-        }
-
-
-        private void Speler1_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (Speler1.Text == "")
-            {
-                Speler1.Text = "Username player one";
-                Speler1.Foreground = Brushes.Gray;
-            }
-
-
-        }
-
-        private void Speler2_LostFocus(object sender, RoutedEventArgs e)
-        {
-            if (Speler2.Text == "")
-            {
-                Speler2.Text = "Username player two";
-                Speler2.Foreground = Brushes.Gray;
-            }
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Are you sure you want to go back to the main menu?");
-            var Titlescreen = new Titlescreen();
-            Titlescreen.Show();
+            var titlescreen = new Titlescreen();
+            titlescreen.Show();
             this.Close();
         }
     }
-    // Tijdelijk >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
 }
