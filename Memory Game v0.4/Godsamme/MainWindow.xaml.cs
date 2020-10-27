@@ -178,7 +178,7 @@ namespace Godsamme
         private void exitBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Are you sure you want to restart?");
-            var mainwindow = new MainWindow(naam1, naam2);
+            var mainwindow = new MainWindow(Speler1.Text , Speler2.Text);
             mainwindow.Show();
             this.Close();
         }
