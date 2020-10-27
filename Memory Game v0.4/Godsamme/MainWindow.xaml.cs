@@ -27,6 +27,10 @@ namespace Godsamme
         Image first = null;
         Image second = null;
 
+        public bool PlayerCount = true;
+        public int Player1Score = 0;
+        public int Player2Score = 0;
+
         public string naam1 { get; set; }
         public string naam2 { get; set; }
 
@@ -40,6 +44,7 @@ namespace Godsamme
 
             Speler1.Text = naam1;
             Speler2.Text = naam2;
+            PlayerTurn.Text = Speler2.Text;
         }
 
 
@@ -122,6 +127,23 @@ namespace Godsamme
                 second.Opacity = 0;
                 first = null;
                 second = null;
+                //Met deze twee statements wordt een punt gegeven aan een speler die 2 kaarten gematched heeft en wordt de beurt doorgegeven aan de volgende speler.
+                //Ook wordt de text in de scoreblokken dynamisch aangepast en weergegeven wie aan de beurt is.
+                if (PlayerCount == true)
+                {
+                    PlayerTurn.Text = Speler1.Text;
+                    Player2Score++;
+                    PlayerCount = false;
+                }
+                else if (PlayerCount == false)
+                {
+                    PlayerTurn.Text = Speler2.Text;
+                    Player1Score++;
+                    PlayerCount = true;
+                }
+                HS1.Text = Player1Score.ToString();
+                HS2.Text = Player2Score.ToString();
+                
             }
             else if (first.Tag.ToString() != second.Tag.ToString())
             {
@@ -133,9 +155,18 @@ namespace Godsamme
 
                 first = null;
                 second = null;
-
-
-
+                //Met deze twee statements wordt de beurt doorgegeven aan de volgende speler als er twee niet matchende kaarten omgedraaid zijn.
+                //Ook wordt weergegeven wie aan de beurt is.
+                if (PlayerCount == true)
+                {
+                    PlayerTurn.Text = Speler1.Text;
+                    PlayerCount = false;
+                }
+                else if (PlayerCount == false)
+                {
+                    PlayerTurn.Text = Speler2.Text;
+                    PlayerCount = true;
+                }
             }
             else
             {
