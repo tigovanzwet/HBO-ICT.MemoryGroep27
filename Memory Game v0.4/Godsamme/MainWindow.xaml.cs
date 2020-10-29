@@ -175,17 +175,26 @@ namespace Godsamme
                 second = null;
             }
             //Zodra een speler een score van 5 matches heeft gehaald, krijgt de speler een melding dat hij/zij heeft gewonnen. 5 matches = 10 kaarten 
-                if (Player1Score == 5)
-                {
-                    MessageBox.Show("You win !");
+            if (Player1Score == 5)
+            {
+                MessageBox.Show(Speler1.Text + " wins !");
 
 
-                }
-                else if (Player2Score == 5)
-                {
-                    MessageBox.Show("You win !");
-                }
+            }
+            else if (Player2Score == 5)
+            {
+                MessageBox.Show(Speler2.Text + " wins !");
+            }
+            
+            if (Player1Score == 4 && Player2Score == 4)
+            {
+                MessageBox.Show("It's a draw! Click the restart button to play again.");
+            }
                 
+                 
+            
+
+            
                 
 
             
@@ -208,7 +217,7 @@ namespace Godsamme
 
         }
 
-        private void SaveScores_Click(object sender, RoutedEventArgs e)
+        private void SaveGame_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Your scores have been saved");
 
