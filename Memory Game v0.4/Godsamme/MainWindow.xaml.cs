@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Runtime.ExceptionServices;
 using System.Text;
@@ -173,8 +174,24 @@ namespace Godsamme
                 first = null;
                 second = null;
             }
+            //Zodra een speler een score van 5 matches heeft gehaald, krijgt de speler een melding dat hij/zij heeft gewonnen. 5 matches = 10 kaarten 
+                if (Player1Score == 5)
+                {
+                    MessageBox.Show("You win !");
 
-        }
+
+                }
+                else if (Player2Score == 5)
+                {
+                    MessageBox.Show("You win !");
+                }
+                
+                
+
+            
+            
+            }
+
         private void exitBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Are you sure you want to restart?");
@@ -188,6 +205,22 @@ namespace Godsamme
             var titlescreen = new Titlescreen();
             titlescreen.Show();
             this.Close();
+
         }
+
+        private void SaveScores_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Your scores have been saved");
+
+           
+
+        }
+        
+
+
+
+
+        
+
     }
 }

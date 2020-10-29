@@ -141,3 +141,26 @@ F:\Uni\Visual Studio Projects\MemoryGame\Memory Game v0.4\Godsamme\obj\Debug\God
 F:\Uni\Visual Studio Projects\MemoryGame\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.csproj.CoreCompileInputs.cache
 F:\Uni\Visual Studio Projects\MemoryGame\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.exe
 F:\Uni\Visual Studio Projects\MemoryGame\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.pdb
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\bin\Debug\Godsamme.exe.config
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\bin\Debug\Godsamme.exe
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\bin\Debug\Godsamme.pdb
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.csprojAssemblyReference.cache
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\highscores.g.cs
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\MainWindow.g.cs
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Titlescreen.g.cs
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\UserControl1.g.cs
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Namenscherm.g.cs
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\App.g.cs
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme_MarkupCompile.cache
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme_MarkupCompile.lref
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\highscores.baml
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\MainWindow.baml
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Titlescreen.baml
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\UserControl1.baml
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Namenscherm.baml
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.g.resources
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.Properties.Resources.resources
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.csproj.GenerateResource.cache
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.csproj.CoreCompileInputs.cache
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.exe
+C:\Users\erikd\Source\Repos\HBO-ICT.MemoryGroep27\Memory Game v0.4\Godsamme\obj\Debug\Godsamme.pdb
