@@ -32,9 +32,6 @@ namespace Godsamme
         public int Player1Score = 0;
         public int Player2Score = 0;
 
-        public string naam1 { get; set; }
-        public string naam2 { get; set; }
-
         public MainWindow(string naam1, string naam2)
         {
             InitializeComponent();
@@ -62,6 +59,8 @@ namespace Godsamme
                 }
             }
         }
+
+
         private void AddImages(int rows, int cols)
         {
             List<ImageSource> images = getImageList();
@@ -201,7 +200,9 @@ namespace Godsamme
             
             }
 
-        private void exitBtn_Click(object sender, RoutedEventArgs e)
+
+        // Met deze funtie wordt het spel gereset en kan er opnieuw gespeeld worden.
+        private void RestartBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Are you sure you want to restart?");
             var mainwindow = new MainWindow(Speler1.Text , Speler2.Text);
@@ -214,7 +215,6 @@ namespace Godsamme
             var titlescreen = new Titlescreen();
             titlescreen.Show();
             this.Close();
-
         }
 
         private void SaveGame_Click(object sender, RoutedEventArgs e)

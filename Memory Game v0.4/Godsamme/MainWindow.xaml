@@ -11,7 +11,7 @@
 
         </Grid>
         <Image Source="/Resources/memorytitle.png" VerticalAlignment="Top" Margin="1,530,255.6,0" HorizontalAlignment="Center" RenderTransformOrigin="0.15,-3.604" Height="62" Width="537"/>
-        <Button Name ="exitBtn" Content="Restart Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="594,40,0,0" Height="62" Click="exitBtn_Click" FontFamily="Jokerman" FontSize="18"/>
+        <Button Name ="RestartBtn" Content="Restart Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="157" Margin="594,40,0,0" Height="62" Click="RestartBtn_Click" FontFamily="Jokerman" FontSize="18"/>
 
         <TextBlock Name="Speler1" Background="White" Width="225" Margin="0,624,0,100" HorizontalAlignment="Left" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
         <TextBlock Name="Speler2" Background="White" Width="209" Margin="0,624,311,100" HorizontalAlignment="Right" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
