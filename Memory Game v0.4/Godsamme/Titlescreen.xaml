@@ -25,9 +25,9 @@
 
         <Button Name="highscoresBtn" Content="Highscores" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,421,0,0" Height="62" Grid.Column="1" FontFamily="Jokerman" FontSize="18" Click="highscoresBtn_Click"/>
 
-        <Button Name ="exitBtn" Content="Exit Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,509,0,0" Height="62" Grid.Column="1" Click="exitBtn_Click" FontFamily="Jokerman" FontSize="18"/>
+        <Button Name ="exitBtn" Content="Exit Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,592,0,0" Height="62" Grid.Column="1" Click="exitBtn_Click" FontFamily="Jokerman" FontSize="18"/>
 
-		<Button Name ="loadBtn" Content="Load Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,596,0,0" Height="62" Grid.Column="1" Click="loadBtn_Click" FontFamily="Jokerman" FontSize="18"/>
+		<Button Name ="loadBtn" Content="Load Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,506,0,0" Height="62" Grid.Column="1" Click="loadBtn_Click" FontFamily="Jokerman" FontSize="18"/>
 
     </Grid>
 </Window>

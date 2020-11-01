@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="800" WindowStartupLocation="CenterScreen">
     <Grid Background="Black">
-        <Grid Background="Black" Margin="0, 0, 250, 250" x:Name="GameGrid">
+        <Grid Background="White" Margin="0, 0, 250, 250" x:Name="GameGrid">
 
         </Grid>
         <Image Source="/Resources/memorytitle.png" VerticalAlignment="Top" Margin="1,530,255.6,0" HorizontalAlignment="Center" RenderTransformOrigin="0.15,-3.604" Height="62" Width="537"/>
@@ -19,7 +19,7 @@
         <TextBlock Name="HS2" Text="0" Background="White" Width="209" Margin="264,691,0,36" HorizontalAlignment="Left" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
         <TextBlock Name="Beurt" Text="De beurt is aan:" Background="White" Width="235" Height="62" Margin="534,629,0,78" HorizontalAlignment="Left" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
         <TextBlock Name="PlayerTurn" Background="White" Width="235" Height="62" Margin="534,662,0,45" HorizontalAlignment="Left" TextAlignment="Center" FontSize="18" FontFamily="Jokerman"/>
-        <Button Content="Back to Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Margin="593,124,0,0" RenderTransformOrigin="0.5,0.5" Height="58" FontFamily="Jokerman" FontSize="18" Click="Start_Click">
+        <Button Content="Back to Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="160" Margin="591,213,0,0" RenderTransformOrigin="0.5,0.5" Height="58" FontFamily="Jokerman" FontSize="18" Click="Start_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -29,7 +29,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Name="savesgameBtn" Content="Save Game" HorizontalAlignment="Left" Margin="594,205,0,0" VerticalAlignment="Top" Width="157" RenderTransformOrigin="0.371,0.083" Height="58" FontFamily="Jokerman" FontSize="18" Click="SaveGame_Click"/>
+        <Button Name="savesgameBtn" Content="Save Game" HorizontalAlignment="Left" Margin="594,128,0,0" VerticalAlignment="Top" Width="157" RenderTransformOrigin="0.371,0.083" Height="58" FontFamily="Jokerman" FontSize="18" Click="SaveGame_Click"/>
    
 
 
