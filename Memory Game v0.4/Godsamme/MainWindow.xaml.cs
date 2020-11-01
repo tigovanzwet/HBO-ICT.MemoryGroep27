@@ -220,8 +220,13 @@ namespace Godsamme
         private void SaveGame_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Your scores have been saved");
-
-           
+            using (StreamWriter w = File.AppendText("memory.sav"));
+            using (var writer = new StreamWriter("memory.sav"))
+            {
+                writer.WriteLine(PlayerCount);
+                writer.WriteLine(Player1Score);
+                writer.WriteLine(Player2Score);
+            } 
 
         }
         

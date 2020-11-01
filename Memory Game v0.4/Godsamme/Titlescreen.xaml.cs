@@ -44,6 +44,10 @@ namespace Godsamme
             this.Close();
         }
 
+        private void loadBtn_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Load Game");
+        }
         
     }
 }
