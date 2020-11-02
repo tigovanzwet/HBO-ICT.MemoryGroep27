@@ -46,8 +46,8 @@ namespace Godsamme
         }
 
 
-        //Hier wordt het speelveld van 4 bij 4 kaarten aangemaakt.
-        //Er wordt gebruik gemaakt van rows en cols die eerder gedefineerd zijn als 4. 
+        //! Hier wordt het speelveld van 4 bij 4 kaarten aangemaakt.
+        //! Er wordt gebruik gemaakt van rows en cols die eerder gedefineerd zijn als 4. 
         private void InitializeGameGrid(int rows, int cols)
         {
             for (int i = 0; i < rows; i++)
@@ -62,8 +62,8 @@ namespace Godsamme
             }
         }
 
-        //Hier worden de achterkanten van de kaarten ingeladen en verdeeld over de cols en rows.
-        //Ook de mouseclick event is aangemaakt voor het draaien van kaarten.
+        //! Hier worden de achterkanten van de kaarten ingeladen en verdeeld over de cols en rows.
+        //! Ook de mouseclick event is aangemaakt voor het draaien van kaarten.
         private void AddImages(int rows, int cols)
         {
             List<ImageSource> images = getImageList();
@@ -84,8 +84,8 @@ namespace Godsamme
             }
         }
 
-        //Hier worden de voorkanten van de kaarten ingeladen en geshuffled in een willekeurige volgorde.
-        //Zo komen ze ook willekeurig in de gamegrid te staan.
+        //! Hier worden de voorkanten van de kaarten ingeladen en geshuffled in een willekeurige volgorde.
+        //! Zo komen ze ook willekeurig in de gamegrid te staan.
         private List<ImageSource> getImageList()
         {
             List<ImageSource> result = new List<ImageSource>();
@@ -104,20 +104,20 @@ namespace Godsamme
         
         private void TurnCard(object sender, MouseButtonEventArgs e)
         {
-            //Hier wordt het omdraaien van de kaartjes mogelijk gemaakt.
-            //Ook worden de laatste 5 cijfer/letters van de imagename gepakt zodat als er twee dezelfe aangeklikt worden er een match is.
+            //! Hier wordt het omdraaien van de kaartjes mogelijk gemaakt.
+            //! Ook worden de laatste 5 cijfer/letters van de imagename gepakt zodat als er twee dezelfe aangeklikt worden er een match is.
             Image card = (Image)sender;
             ImageSource front = (ImageSource)card.Tag;
             card.Source = front;
             string imagename = card.Tag.ToString();
             imagename = imagename.Substring(imagename.Length - 5);
 
-            //Gematchde kaarten worden onzichtbaar gemaakt en zijn daarom niet meer aanklikbaar.
+            //! Gematchde kaarten worden onzichtbaar gemaakt en zijn daarom niet meer aanklikbaar.
             if (card.Opacity == 0)
             {
                 return;
             }
-            //Deze twee loops zorgen er voor dat je maar op twee kaarten kan klikken.
+            //! Deze twee loops zorgen er voor dat je maar op twee kaarten kan klikken.
             if (first == null)
             {
                 first = card;
@@ -128,8 +128,8 @@ namespace Godsamme
                 second = card;
 
             }
-            //Als de namen van de image hetzelfde zijn is het een match.
-            //Kaarten worden dan onzichtbaar gemaakt zodat ze niet meer meedoen aan het spel.
+            //! Als de namen van de image hetzelfde zijn is het een match.
+            //! Kaarten worden dan onzichtbaar gemaakt zodat ze niet meer meedoen aan het spel.
             if (first.Tag.ToString() == second.Tag.ToString())
             {
                 MessageBox.Show("Match!");
@@ -137,8 +137,8 @@ namespace Godsamme
                 second.Opacity = 0;
                 first = null;
                 second = null;
-                //Met deze twee statements wordt een punt gegeven aan een speler die 2 kaarten gematched heeft en wordt de beurt doorgegeven aan de volgende speler.
-                //Ook wordt de text in de scoreblokken dynamisch aangepast en weergegeven wie aan de beurt is.
+                //! Met deze twee statements wordt een punt gegeven aan een speler die 2 kaarten gematched heeft en wordt de beurt doorgegeven aan de volgende speler.
+                //! Ook wordt de text in de scoreblokken dynamisch aangepast en weergegeven wie aan de beurt is.
                 if (PlayerCount == true)
                 {
                     PlayerTurn.Text = Speler1.Text;
@@ -155,8 +155,8 @@ namespace Godsamme
                 HS2.Text = Player2Score.ToString();
                 
             }
-            //Als de image namen niet hetzelfde zijn krijgt de speler een melding dat het geen match is.
-            //Daarna worden de kaarten weer teruggedraaid naar de afbeelding van de achterkant.
+            //! Als de image namen niet hetzelfde zijn krijgt de speler een melding dat het geen match is.
+            //! Daarna worden de kaarten weer teruggedraaid naar de afbeelding van de achterkant.
             else if (first.Tag.ToString() != second.Tag.ToString())
             {
                 MessageBox.Show("No Match!");
@@ -167,8 +167,8 @@ namespace Godsamme
 
                 first = null;
                 second = null;
-                //Met deze twee statements wordt de beurt doorgegeven aan de volgende speler als er twee niet matchende kaarten omgedraaid zijn.
-                //Ook wordt weergegeven wie aan de beurt is.
+                //! Met deze twee statements wordt de beurt doorgegeven aan de volgende speler als er twee niet matchende kaarten omgedraaid zijn.
+                //! Ook wordt weergegeven wie aan de beurt is.
                 if (PlayerCount == true)
                 {
                     PlayerTurn.Text = Speler1.Text;
@@ -185,8 +185,8 @@ namespace Godsamme
                 first = null;
                 second = null;
             }
-            //Zodra een speler een score van 5 matches heeft gehaald, krijgt de speler een melding dat hij/zij heeft gewonnen. 5 matches = 10 kaarten 
-            //Bij het halen van een gelijke score (altijd 4) wordt er een melding van gegeven.
+            //! Zodra een speler een score van 5 matches heeft gehaald, krijgt de speler een melding dat hij/zij heeft gewonnen. 5 matches = 10 kaarten 
+            //! Bij het halen van een gelijke score (altijd 4) wordt er een melding van gegeven.
             if (Player1Score == 5)
             {
                 MessageBox.Show(Speler1.Text + " wins!");
@@ -202,7 +202,7 @@ namespace Godsamme
             {
                 MessageBox.Show("It's a draw!");
             }
-            //Deze functie slaat de highscores van de spelers op bij winst of een gelijk spel.
+            //! Deze functie slaat de highscores van de spelers op bij winst of een gelijk spel.
             if (Player1Score == 4 && Player2Score == 4 || Player1Score == 5 || Player2Score == 5)
             MessageBox.Show("Your highscores have been saved!");
             using (var writer = new StreamWriter("highscores.sav"))
@@ -212,7 +212,7 @@ namespace Godsamme
                 writer.WriteLine(Speler1.Text);
                 writer.WriteLine(Speler2.Text);
             }
-            //Deze functie zorgt er voor dat het spel gerestart wordt na het behalen van winst of een gelijk spel.
+            //! Deze functie zorgt er voor dat het spel gerestart wordt na het behalen van winst of een gelijk spel.
             if  (Player1Score == 4 && Player2Score == 4 || Player1Score == 5 || Player2Score == 5)
             {
                 MessageBox.Show("The game is finished. It will automatically restart.");
@@ -225,7 +225,7 @@ namespace Godsamme
         }
 
 
-        // Met deze funtie wordt het spel gereset en kan er opnieuw gespeeld worden.
+        //! Met deze funtie wordt het spel gereset en kan er opnieuw gespeeld worden.
         private void RestartBtn_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Are you sure you want to restart?");
@@ -241,10 +241,10 @@ namespace Godsamme
             this.Close();
         }
 
-        // Hiermee wordt een nieuw .sav file aangemaakt als deze nog niet aanwezig is
-        // Hiermee wordt het speelveld opgeslagen in het .sav file
-        // Ook worden de scores en welke speler aan de beurt is opgeslagen in het .sav file.
-        // Sidenote: Highscores worden sowieso opgeslagen aan het einde van het spel. Deze functie wordt alleen gebruikt bij het vroegtijdig stoppen/opslaan voor later van het spel.
+        //! Hiermee wordt een nieuw .sav file aangemaakt als deze nog niet aanwezig is
+        //! Hiermee wordt het speelveld opgeslagen in het .sav file
+        //! Ook worden de scores en welke speler aan de beurt is opgeslagen in het .sav file.
+        //! Sidenote: Highscores worden sowieso opgeslagen aan het einde van het spel. Deze functie wordt alleen gebruikt bij het vroegtijdig stoppen/opslaan voor later van het spel.
         private void SaveGame_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Your data has been saved!");
@@ -255,10 +255,10 @@ namespace Godsamme
                 writer.WriteLine(Player2Score);
                 writer.WriteLine(Speler1.Text);
                 writer.WriteLine(Speler2.Text);
-                //writer.WriteLine(Speelveld); --> Hier had nog een functie moeten komen voor het opslaan van de kaarten, deze is wegens tijdsnood niet meer toegevoegd.
-                //Het idee was in principe hetzelfde als hierboven, alleen bevatten de kaarten meerdere aspecten die opgeslagen moeten worden waardoor het qua tijd niet meer ging lukken.
-                //Het opslaan van de Spelers en de Score is wel gelukt, en deze is ook terug te vinden in een .sav bestand. 
-                //Het laden hiervan zijn we ook niet meer aan toe gekomen.
+                //! writer.WriteLine(Speelveld); --> Hier had nog een functie moeten komen voor het opslaan van de kaarten, deze is wegens tijdsnood niet meer toegevoegd.
+                //! Het idee was in principe hetzelfde als hierboven, alleen bevatten de kaarten meerdere aspecten die opgeslagen moeten worden waardoor het qua tijd niet meer ging lukken.
+                //! Het opslaan van de Spelers en de Score is wel gelukt, en deze is ook terug te vinden in een .sav bestand. 
+                //! Het laden hiervan zijn we ook niet meer aan toe gekomen.
             }
 
         }

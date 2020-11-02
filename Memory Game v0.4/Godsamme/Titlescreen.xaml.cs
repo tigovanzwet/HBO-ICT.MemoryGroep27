@@ -14,22 +14,24 @@ using System.Windows.Shapes;
 
 namespace Godsamme
 {
-    /// <summary>
-    /// Interaction logic for Titlescreen.xaml
-    /// </summary>
+    //! <summary>
+    //! Interaction logic for Titlescreen.xaml
+    //! </summary>
     public partial class Titlescreen : Window
     {
         public Titlescreen()
         {
             InitializeComponent();
         }
-
+        //! Deze button start het spel
         private void startBtn_Click(object sender, RoutedEventArgs e)
         {
             var Namenscherm = new Window1();
             Namenscherm.Show();
             this.Close();
         }
+
+        //! Deze button eindigt het spel
 
         private void exitBtn_Click(object sender, RoutedEventArgs e)
         {

@@ -23,8 +23,8 @@ namespace Godsamme
         }
 
 
-        // Met deze Functie worden de namen die zijn ingevoerd overgebracht naar de MainWindow waar deze worden weergegeven.
-        // Ook wordt het Namenscherm afgesloten en de MainWindow weergegeven.
+        //! Met deze Functie worden de namen die zijn ingevoerd overgebracht naar de MainWindow waar deze worden weergegeven.
+        //! Ook wordt het Namenscherm afgesloten en de MainWindow weergegeven.
         private void startbutton_Click(object sender, RoutedEventArgs e)
         {
             string naam1 = Speler1.Text;
@@ -35,7 +35,7 @@ namespace Godsamme
         }
 
 
-        // Met deze functie wordt het huidige scherm afgesloten en wordt de Titlescreen weergegeven.
+        //! Met deze functie wordt het huidige scherm afgesloten en wordt de Titlescreen weergegeven.
         private void Terugbutton_Click(object sender, RoutedEventArgs e)
         {
             var Titlescreen = new Titlescreen();
@@ -44,7 +44,7 @@ namespace Godsamme
         }
 
         
-        // Met deze twee functies wordt de placeholder text verwijderd en kan de gebruiker een naam invullen.
+        //! Met deze twee functies wordt de placeholder text verwijderd en kan de gebruiker een naam invullen.
         private void Speler1_GotFocus(object sender, RoutedEventArgs e)
         {
             if(Speler1.Text != "Username player one")
@@ -71,8 +71,8 @@ namespace Godsamme
         }
 
   
-        // Met deze twee functies wordt gecontroleerd of de gebruiker een naam heeft ingevoerd. 
-        // Is dit niet het geval dan zal de placeholder text weer te voorschijn komen
+        //! Met deze twee functies wordt gecontroleerd of de gebruiker een naam heeft ingevoerd. 
+        //! Is dit niet het geval dan zal de placeholder text weer te voorschijn komen
         private void Speler1_LostFocus(object sender, RoutedEventArgs e)
         {
             if (Speler1.Text == "") 
