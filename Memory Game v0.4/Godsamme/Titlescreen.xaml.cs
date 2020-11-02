@@ -33,7 +33,7 @@ namespace Godsamme
 
         private void exitBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Weet u zeker dat u wilt afsluiten?");
+            MessageBox.Show("Are you sure you want to exit?");
             this.Close();
         }
 

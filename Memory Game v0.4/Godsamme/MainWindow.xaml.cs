@@ -186,30 +186,40 @@ namespace Godsamme
                 second = null;
             }
             //Zodra een speler een score van 5 matches heeft gehaald, krijgt de speler een melding dat hij/zij heeft gewonnen. 5 matches = 10 kaarten 
+            //Bij het halen van een gelijke score (altijd 4) wordt er een melding van gegeven.
             if (Player1Score == 5)
             {
-                MessageBox.Show(Speler1.Text + " wins !");
+                MessageBox.Show(Speler1.Text + " wins!");
 
 
             }
             else if (Player2Score == 5)
             {
-                MessageBox.Show(Speler2.Text + " wins !");
+                MessageBox.Show(Speler2.Text + " wins!");
             }
-            
+
             if (Player1Score == 4 && Player2Score == 4)
             {
                 MessageBox.Show("It's a draw! Click the restart button to play again.");
             }
-                
-                 
-            
+            if (Player1Score == 4 && Player2Score == 4 || Player1Score == 5 || Player2Score == 5)
+            MessageBox.Show("Your highscores have been saved!");
+            using (var writer = new StreamWriter("highscores.sav"))
+            {
+                writer.WriteLine(Player1Score);
+                writer.WriteLine(Player2Score);
+            }
 
-            
-                
 
-            
-            
+
+
+
+
+
+
+
+
+
             }
 
 
@@ -232,18 +242,20 @@ namespace Godsamme
         // Hiermee wordt een nieuw .sav file aangemaakt als deze nog niet aanwezig is
         // Hiermee wordt het speelveld opgeslagen in het .sav file
         // Ook worden de scores en welke speler aan de beurt is opgeslagen in het .sav file.
-
+        // Sidenote: Highscores worden sowieso opgeslagen aan het einde van het spel. Deze functie wordt alleen gebruikt bij het vroegtijdig stoppen/opslaan voor later van het spel.
         private void SaveGame_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Your scores have been saved");
-            using (StreamWriter w = File.AppendText("memory.sav"))
+            MessageBox.Show("Your data has been saved!");
             using (var writer = new StreamWriter("memory.sav"))
             {
                 writer.WriteLine(PlayerCount);
                 writer.WriteLine(Player1Score);
                 writer.WriteLine(Player2Score);
-                writer.WriteLine();
-            } 
+                //writer.WriteLine(Speelveld); --> Hier had nog een functie moeten komen voor het opslaan van de kaarten, deze is wegens tijdsnood niet meer toegevoegd.
+                //Het idee was in principe hetzelfde als hierboven, alleen bevatten de kaarten meerdere aspecten die opgeslagen moeten worden waardoor het qua tijd niet meer ging lukken.
+                //Het opslaan van de Spelers en de Score is wel gelukt, en deze is ook terug te vinden in een .sav bestand. 
+                //Het laden hiervan zijn we ook niet meer aan toe gekomen.
+            }
 
         }
         
