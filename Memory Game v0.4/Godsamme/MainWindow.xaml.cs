@@ -200,8 +200,9 @@ namespace Godsamme
 
             if (Player1Score == 4 && Player2Score == 4)
             {
-                MessageBox.Show("It's a draw! Click the restart button to play again.");
+                MessageBox.Show("It's a draw!");
             }
+            //Deze functie slaat de highscores van de spelers op bij winst of een gelijk spel.
             if (Player1Score == 4 && Player2Score == 4 || Player1Score == 5 || Player2Score == 5)
             MessageBox.Show("Your highscores have been saved!");
             using (var writer = new StreamWriter("highscores.sav"))
@@ -211,18 +212,17 @@ namespace Godsamme
                 writer.WriteLine(Speler1.Text);
                 writer.WriteLine(Speler2.Text);
             }
-
-
-
-
-
-
-
-
-
-
-
+            //Deze functie zorgt er voor dat het spel gerestart wordt na het behalen van winst of een gelijk spel.
+            if  (Player1Score == 4 && Player2Score == 4 || Player1Score == 5 || Player2Score == 5)
+            {
+                MessageBox.Show("The game is finished. It will automatically restart.");
+                var mainwindow = new MainWindow(Speler1.Text, Speler2.Text);
+                mainwindow.Show();
+                this.Close();
             }
+            
+
+        }
 
 
         // Met deze funtie wordt het spel gereset en kan er opnieuw gespeeld worden.

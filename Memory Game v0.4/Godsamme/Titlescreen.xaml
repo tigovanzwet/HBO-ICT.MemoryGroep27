@@ -21,9 +21,10 @@
         </Grid>
         <Image Source="/Resources/memorytitle.png" VerticalAlignment="Top" Margin="20,112,31.6,0" Grid.Column="1" HorizontalAlignment="Center" RenderTransformOrigin="0.255,0.444"/>
 
-        <Button Name="startBtn" Content="Play Game" VerticalAlignment="Top" Margin="259,417,0,0" Height="62" Click="startBtn_Click" Grid.Column="1" FontFamily="Jokerman" FontSize="18" HorizontalAlignment="Left" Width="244"/>
+        <Button Name="startBtn" Content="Play Game" VerticalAlignment="Top" Margin="259,336,0,0" Height="62" Click="startBtn_Click" Grid.Column="1" FontFamily="Jokerman" FontSize="18" HorizontalAlignment="Left" Width="244"/>
 
-        <Button Name ="exitBtn" Content="Exit Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,503,0,0" Height="62" Grid.Column="1" Click="exitBtn_Click" FontFamily="Jokerman" FontSize="18"/>
+        <Button Name ="exitBtn" Content="Exit Game" HorizontalAlignment="Left" VerticalAlignment="Top" Width="244" Margin="259,507,0,0" Height="62" Grid.Column="1" Click="exitBtn_Click" FontFamily="Jokerman" FontSize="18"/>
+        <Button x:Name="highscoresBtn" Content="Highscores" VerticalAlignment="Top" Margin="259,421,0,0" Height="62" Click="highscoresBtn_Click" Grid.Column="1" FontFamily="Jokerman" FontSize="18" HorizontalAlignment="Left" Width="244"/>
 
     </Grid>
 </Window>
