@@ -208,6 +208,8 @@ namespace Godsamme
             {
                 writer.WriteLine(Player1Score);
                 writer.WriteLine(Player2Score);
+                writer.WriteLine(Speler1.Text);
+                writer.WriteLine(Speler2.Text);
             }
 
 
@@ -251,6 +253,8 @@ namespace Godsamme
                 writer.WriteLine(PlayerCount);
                 writer.WriteLine(Player1Score);
                 writer.WriteLine(Player2Score);
+                writer.WriteLine(Speler1.Text);
+                writer.WriteLine(Speler2.Text);
                 //writer.WriteLine(Speelveld); --> Hier had nog een functie moeten komen voor het opslaan van de kaarten, deze is wegens tijdsnood niet meer toegevoegd.
                 //Het idee was in principe hetzelfde als hierboven, alleen bevatten de kaarten meerdere aspecten die opgeslagen moeten worden waardoor het qua tijd niet meer ging lukken.
                 //Het opslaan van de Spelers en de Score is wel gelukt, en deze is ook terug te vinden in een .sav bestand. 
