@@ -229,6 +229,10 @@ namespace Godsamme
             this.Close();
         }
 
+        // Hiermee wordt een nieuw .sav file aangemaakt als deze nog niet aanwezig is
+        // Hiermee wordt het speelveld opgeslagen in het .sav file
+        // Ook worden de scores en welke speler aan de beurt is opgeslagen in het .sav file.
+
         private void SaveGame_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Your scores have been saved");
